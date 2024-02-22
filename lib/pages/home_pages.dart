@@ -38,6 +38,39 @@ class HomePage extends StatelessWidget {
             ),
             Text('UX Designer',
                 style: TextStyle(fontSize: 16, color: Colors.grey)),
+            SizedBox(
+              height: 70,
+            ),
+            Wrap(
+              spacing: 38,
+              runSpacing: 40,
+              children: [
+                Image(
+                  image: AssetImage('assets/images/item-1.png'),
+                  height: 80,
+                ),
+                Image(
+                  image: AssetImage('assets/images/item-2.png'),
+                  height: 80,
+                ),
+                Image(
+                  image: AssetImage('assets/images/item-3.png'),
+                  height: 80,
+                ),
+                Image(
+                  image: AssetImage('assets/images/item-4.png'),
+                  height: 80,
+                ),
+                Image(
+                  image: AssetImage('assets/images/item-5.png'),
+                  height: 80,
+                ),
+                Image(
+                  image: AssetImage('assets/images/item-1.png'),
+                  height: 80,
+                ),
+              ],
+            )
           ],
         ),
       ),
