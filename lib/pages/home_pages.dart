@@ -85,6 +85,9 @@ class HomePage extends StatelessWidget {
                       style: TextButton.styleFrom(
                         backgroundColor: Colors.white,
                         foregroundColor: textColor,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
                       ),
                       onPressed: () {
                         showModalBottomSheet(
@@ -122,6 +125,10 @@ class HomePage extends StatelessWidget {
                                           backgroundColor: primaryColor,
                                           foregroundColor: secondaryColor,
                                           minimumSize: const Size(224, 55),
+                                          shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(16),
+                                          ),
                                         ),
                                         child: const Text(
                                           'Continue',
